@@ -47,5 +47,8 @@ for filepath in list_of_files:
         logging.info(f"{filename} is already exists")     
 
 ## To create entire project structure open the terminal :
-# python template.py command            
+# python template.py command    
+# then commit : git add . ---> git commit -m "Project structure"
+# then git push origin main (will work only if u created the entire folder with git commands , from github (there u create the repo and copy commands to bring the repo in local)) 
+# if u have done the above then when u refresh the github page u will get to see new files which u commited now.       
 
