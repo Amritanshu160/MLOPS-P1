@@ -1,1 +1,80 @@
 [2025-10-16 19:44:35,306: INFO: main: Welcome to our custom logging data science]
+[2025-10-17 14:56:34,989: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-17 14:56:34,999: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-17 14:56:35,002: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-10-17 14:56:35,005: INFO: common: Created directory at: artifacts]
+[2025-10-17 14:56:35,007: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-10-17 14:58:03,600: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-17 14:58:03,602: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-17 14:58:03,604: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-10-17 14:58:03,606: INFO: common: Created directory at: artifacts]
+[2025-10-17 14:58:03,607: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-10-17 15:00:04,801: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-17 15:00:04,803: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-17 15:00:04,805: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-10-17 15:00:04,807: INFO: common: Created directory at: artifacts]
+[2025-10-17 15:00:04,808: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-10-17 15:00:06,145: INFO: 1434278387: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E2AA:11D3E4:8B333:F8F35:68F20C9C
+Accept-Ranges: bytes
+Date: Fri, 17 Oct 2025 09:30:05 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10245-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1760693405.080849,VS0,VE341
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 930b23f0c26c51dc7aac88b3a707e941427889d8
+Expires: Fri, 17 Oct 2025 09:35:05 GMT
+Source-Age: 0
+
+]
+[2025-10-17 15:40:14,408: INFO: main: Welcome to our custom logging data science]
+[2025-10-17 15:40:14,408: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-10-17 15:40:14,409: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-17 15:40:14,410: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-17 15:40:14,410: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-10-17 15:40:14,411: INFO: common: Created directory at: artifacts]
+[2025-10-17 15:40:14,411: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-10-17 15:40:14,411: INFO: data_ingestion: File already exists]
+[2025-10-17 15:40:14,413: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x======x]
+[2025-10-19 08:37:55,749: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-19 08:37:55,781: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-19 08:37:55,792: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-10-19 08:37:55,794: INFO: common: Created directory at: artifacts]
+[2025-10-19 08:37:55,795: INFO: common: Created directory at: artifacts/data_validation]
+[2025-10-19 08:41:47,021: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-19 08:41:47,023: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-19 08:41:47,027: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-10-19 08:41:47,037: INFO: common: Created directory at: artifacts]
+[2025-10-19 08:41:47,037: INFO: common: Created directory at: artifacts/data_validation]
+[2025-10-19 14:02:50,604: INFO: utils: NumExpr defaulting to 12 threads.]
+[2025-10-20 10:39:30,895: INFO: utils: NumExpr defaulting to 12 threads.]
+[2025-10-20 10:43:03,242: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-20 10:43:03,253: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-20 10:43:03,262: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-10-20 10:43:03,263: INFO: common: Created directory at: artifacts]
+[2025-10-20 10:43:03,264: INFO: common: Created directory at: artifacts/data_transformation]
+[2025-10-20 10:43:03,306: INFO: 4071437870: Splitted data into training and test sets]
+[2025-10-20 10:43:03,307: INFO: 4071437870: (1199, 12)]
+[2025-10-20 10:43:03,307: INFO: 4071437870: (400, 12)]
+[2025-10-20 17:55:57,267: INFO: utils: NumExpr defaulting to 12 threads.]
+[2025-10-20 23:30:17,853: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-20 23:30:17,863: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-20 23:30:17,870: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-10-20 23:30:17,872: INFO: common: Created directory at: artifacts]
+[2025-10-20 23:30:17,874: INFO: common: Created directory at: artifacts/model_trainer]

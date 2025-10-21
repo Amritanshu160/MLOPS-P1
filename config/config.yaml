@@ -1,0 +1,23 @@
+artifacts_root: artifacts
+
+data_ingestion:
+   root_dir: artifacts/data_ingestion  ## This will be the folder that will be created after my data ingestion will be executed --> data ingestion folder should be created w.r.t artifacts. Once i run my data ingestion pipeline root directory folder should be created over here.
+   source_URL: https://github.com/krishnaik06/datasets/raw/refs/heads/main/winequality-data.zip  ## This is basically our dataset in zip file
+   local_data_file: artifacts/data_ingestion/data.zip  ## Which path we are going to save our zip file(which location/path we are going to save/download our zip file)
+   unzip-dir: artifacts/data_ingestion  ## Where u are going to unzip the zip file(after downloading we are extracting it --> the path is given where we have to extract).
+
+data_validation:
+   root_dir: artifacts/data_validation ## Inside the artifacts folder we will create data_validation folder
+   unzip_data_dir: artifacts/data_ingestion/winequality-red.csv  ## This the input from where we are reading the data.
+   STATUS_FILE: artifacts/data_validation/status.txt  ## Here we will be updating the status whether validation is true or false
+
+data_transformation:
+   root_dir:  artifacts/data_transformation
+   data_path: artifacts/data_ingestion/winequality-red.csv ## Here currently we will do only train and test split and then save it in form of train and test data
+
+model_trainer:
+   root_dir: artifacts/model_trainer
+   train_data_path: artifacts/data_transformation/train.csv  ## These we require as input
+   test_data_path: artifacts/data_transformation/test.csv
+   model_name: model.joblib    ## after we train our model --> with what file name we need to save it. joblib --> is a serialization technique which helps u to save the model in form of a file(in ur hard-disk) so that for the inferencing purpose u can get that file and do it
+   ## There are two ways : joblib and pickle
